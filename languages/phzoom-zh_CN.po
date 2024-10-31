@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: phzoom\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-04 23:29+0800\n"
+"PO-Revision-Date: 2012-03-04 23:42+0800\n"
+"Last-Translator: Ben <benisme@foxmail.com>\n"
+"Language-Team: Benjemin <benisme@foxmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: phzoom.php:21
+#: phzoom.php:27
+msgid "phZoom Options"
+msgstr "phZoom 设置"
+
+#: phzoom.php:32
+msgid "Picture Link:"
+msgstr "图片链接判断:"
+
+#: phzoom.php:34
+msgid "Picture Link"
+msgstr "链接地址是否为图片"
+
+#: phzoom.php:35
+msgid "(Suggest check)Judged < img > link address for the picture"
+msgstr "(建议勾选)判断< img >所链接的地址是否为图片地址"
+
+#: phzoom.php:41
+msgid "Plugin Range:"
+msgstr "插件效果范围:"
+
+#: phzoom.php:44
+msgid "This ID or Class will determine the range of effect"
+msgstr "根据主题及需要输入加载此效果部分的Class或ID"
+
+#: phzoom.php:48
+msgid "Selector Set:"
+msgstr "选择器设置:"
+
+#: phzoom.php:51
+msgid "If you set this option, the setting of the Plugin Range effect will be replaced(The content you enter must be a complete selector)"
+msgstr "如果你设置了这个选项，“插件效果范围”的设置将会被取代（你输入的内容必须是一个完整的选择器，如#custom>a:has(img)）"
+
+#: phzoom.php:56
+msgid "Lay Opacity:"
+msgstr "遮罩层的不透明度:"
+
+#: phzoom.php:59
+msgid "The default is 70%，means opaque 0.7"
+msgstr "默认0.7即为70%不透明"
+
+#: phzoom.php:63
+msgid "Lay Fade Duration:"
+msgstr "遮罩层渐显的时间:"
+
+#: phzoom.php:66
+msgid "Lay Fade Duration, in milliseconds, default value is 400"
+msgstr "遮罩层渐显的时间, 单位毫秒, 默认400"
+
+#: phzoom.php:70
+msgid "Image Fade Duration:"
+msgstr "图片渐显速度:"
+
+#: phzoom.php:73
+msgid "Images fly to the middle of the screen duration, in milliseconds, default value is 400"
+msgstr "图片从原位飞到荧幕中间的时间, 单位毫秒, 默认400"
+
+#: phzoom.php:77
+msgid "Image Enlarge Duration:"
+msgstr "图片变化速度:"
+
+#: phzoom.php:80
+msgid "Image be magnified duration, in milliseconds, default value is 400"
+msgstr "图片从小到大的变化时间, 单位毫秒 , 默认400"
+
+#: phzoom.php:84
+msgid "Text Color 1:"
+msgstr "文字颜色1:"
+
+#: phzoom.php:87
+msgid "The next and prev the text color, default value is #cf0"
+msgstr "上/下一张的文本颜色, 默认为#cf0"
+
+#: phzoom.php:91
+msgid "Prev Text:"
+msgstr "上一张按钮的文本:"
+
+#: phzoom.php:94
+msgid "The prev text, default value is Prev"
+msgstr "上一张按钮的显示文本，默认为Prev"
+
+#: phzoom.php:98
+msgid "Next Text:"
+msgstr "下一张按钮的文本:"
+
+#: phzoom.php:101
+msgid "The next text, default value is Next"
+msgstr "下一张按钮的显示文本，默认为Next"
+
+#: phzoom.php:107
+msgid "Text Color 2:"
+msgstr "文字颜色2:"
+
+#: phzoom.php:110
+msgid "Image bottom of the title and the text, default value is #cf0"
+msgstr "大图底部标题与索引的文本颜色, 默认为#cf0"
+
+#: phzoom.php:115
+msgid "Limit the width:"
+msgstr "极限宽度:"
+
+#: phzoom.php:117
+msgid "Limit Width"
+msgstr "极限宽度参数设置"
+
+#: phzoom.php:118
+msgid "The default is false, if true, the large figure will not exceed the width of the window (still maintaining aspect ratio)"
+msgstr "默认为false, 勾选即可设为true, 特大图的宽度将不会超出窗口(仍会保持宽高比)"
+
+#: phzoom.php:123
+msgid "Return Origin:"
+msgstr "返回原始值:"
+
+#: phzoom.php:125
+msgid "Return Origin"
+msgstr "是否返回原始值参数设置"
+
+#: phzoom.php:126
+msgid "(Suggest check)The default is true, output origin parameter. if false, plugin will automatically output the img element"
+msgstr "(建议勾选)默认为true, 此时返回初始对象集合. 勾选即可设为false, 则仅返回包含img元素的对象集合"
+
+#: phzoom.php:131
+msgid "Load the jQuery:"
+msgstr "载入jQuery库"
+
+#: phzoom.php:133
+msgid "Google CDN"
+msgstr "Google CDN"
+
+#: phzoom.php:134
+msgid "If you have loaded the jquery, you do not check this option"
+msgstr "如果你已经加载了jquery，就不必勾选此选项"
+
+#: phzoom.php:141
+msgid "Save Changes"
+msgstr "保存设置"
+
+#: phzoom.php:147
+msgid "Go to Plugin URL get more support and help"
+msgstr "前往插件发布地址获取更多支持和帮助"
+
+#, fuzzy
+#~ msgid "phZoom Opons"
+#~ msgstr "phZoom 设置"
+
+#~ msgid "Comment list ID"
+#~ msgstr "测试"
